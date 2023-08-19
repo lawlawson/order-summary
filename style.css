@@ -1,0 +1,28 @@
+:root {
+  --clr-pale-blue: hsl(225, 100%, 94%);
+  --clr-bright-blue: hsl(245, 75%, 52%);
+
+  --clr-very-pale-blue: hsl(225, 100%, 98%);
+  --clr-desaturated-blue: hsl(224, 23%, 55%);
+  --clr-blue: hsl(223, 47%, 23%);
+
+  --fs: 16px;
+
+  --ff-bold: 700;
+  --ff-black: 900;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  place-content: center;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  overflow: hidden;
+  max-width: 1440px;
+}
