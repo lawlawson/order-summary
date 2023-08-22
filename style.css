@@ -17,6 +17,7 @@ body {
   min-height: 100vh;
   place-content: center;
   font-family: 'Red Hat Display', sans-serif;
+  background-color: var(--clr-pale-blue);
 }
 
 .container {
@@ -25,4 +26,38 @@ body {
   flex-direction: column;
   overflow: hidden;
   max-width: 1440px;
+  background-color: #fff;
+}
+
+.header-image {
+  max-width: 100%;
+  background-color: var(--clr-very-pale-blue);
+}
+
+.music-image {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.order-summary-text {
+  text-align: center;
+}
+
+.annual-plan {
+  background-color: var(--clr-very-pale-blue);
+  display: flex;
+  border-radius: 11px;
+}
+
+.music-icon {
+  width: 48px;
+  height: 48px;
+}
+
+button {
+  width: 100%;
 }
