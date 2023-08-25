@@ -28,10 +28,11 @@ body {
   overflow: hidden;
   max-width: 1440px;
   background-color: #fff;
+  border-radius: 0 0 20px 20px;
 }
 
 .content {
-  width: 263px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -58,11 +59,38 @@ h1 {
   background-color: var(--clr-very-pale-blue);
   display: flex;
   border-radius: 11px;
+  justify-content: space-between;
+}
+
+.ap-div-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ap-text-1 {
+  margin: 16px 0 0 0;
+}
+
+.ap-div-2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ap-text-2 {
+  margin: 0 0 16px 0;
+}
+
+.ap-text-link {
+  display: flex;
+  align-items: center;
+  margin: 16px;
 }
 
 .music-icon {
   width: 48px;
   height: 48px;
+  margin: 16px;
 }
 
 button {
@@ -76,4 +104,15 @@ button {
   font-size: 15px;
   cursor: pointer;
   box-shadow: 0px 20px 20px 0 rgba(56, 42, 225, 0.19);
+  margin-top: 24px;
+}
+
+.cancel {
+  color: var(--clr-desaturated-blue);
+  font-weight: var(--ff-bold);
+  font-size: 15px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 32px 0;
 }
