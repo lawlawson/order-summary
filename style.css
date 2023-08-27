@@ -141,7 +141,27 @@ button {
     background-color: var(--clr-pale-blue);
     background-image: url(/images/pattern-background-desktop.svg);
     background-size: auto 60%;
-    background-repeat: no-repeat;
-    /* background-position: top center; */
+  }
+
+  .container {
+    max-width: 450px;
+    max-height: 697px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .ap-text-link:hover {
+    color: #766cf1;
+    text-decoration: none;
+  }
+
+  button:hover {
+    background-color: #766cf1;
+  }
+
+  .cancel:hover {
+    color: #1f2e55;
   }
 }
