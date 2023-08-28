@@ -39,7 +39,8 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-Primarily working 
+
+Primarily working on layout using HTML & CSS. Good practice on using images within backgrounds for different device sizes.
 
 ## Author
 
