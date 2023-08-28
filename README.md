@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/lawlawson/order-summary](https://github.com/lawlawson/order-summary)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://gregarious-sundae-24d97e.netlify.app/](https://gregarious-sundae-24d97e.netlify.app/)
 
 ## My process
 
